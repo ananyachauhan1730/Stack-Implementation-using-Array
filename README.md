@@ -14,6 +14,18 @@ vs code.
 A stack is a linear data structure in which insertion and deletion of elements take place from only one end, called the top.
 It follows the LIFO (Last In First Out) principle:
 The element inserted last is the first one to be removed.
+A stack is a linear data structure in which insertion and deletion of elements are allowed only from one end, called the top. It follows the LIFO (Last In First Out) principle, meaning the element inserted last will be the first one to be removed.
+In array implementation of stack, we use an array of fixed size and a variable top to keep track of the last inserted element.
+Push Operation: Used to insert an element into the stack. If the stack is full, it results in Stack Overflow.
+Pop Operation: Used to delete the top element of the stack. If the stack is empty, it results in Stack Underflow.
+Peek Operation: Used to access the element at the top of the stack without removing it.
+Display Operation: Shows all the elements currently present in the stack.
+
+# Conditions:
+
+When top == -1 → Stack is empty (Underflow).
+
+When top == size-1 → Stack is full (Overflow).
 
 # Operations in Stack:
 
